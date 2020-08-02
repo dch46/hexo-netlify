@@ -14,7 +14,7 @@
 head: 
   
   # 网站图标
-  favicon: /favicon.ico
+  favicon: https://cdn.hinatazaka46.com/files/14/hinata/pages/countdown/images/logo_white.png
   
   # 社交分享链接
   opengraph: 
@@ -42,13 +42,12 @@ cover:
   logo: 
   
   # logo 下方的一句话介绍
-  description: Hi, nice to meet you!
+  description: 誰よりも高く跳べ！
   
   # cover 按钮菜单，通常用于站内导航
   menu: 
     - name: 首页
       url: /
-
     - name: Weibo
       url: https://weibo.com/ysk46
     - name: Road to Tokyo Dome

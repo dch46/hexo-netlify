@@ -36,7 +36,7 @@ head:
 cover: 
 
   # 显示在最上方 cover 处的站点名称
-  sitename: Demo
+  sitename: KangBlog
 
   # 若设置 logo，则优先使用 logo 代替 sitename
   logo: 
@@ -48,15 +48,12 @@ cover:
   menu: 
     - name: 首页
       url: /
-    - name: 标签
-      url: /tags/
-    - name: 归档
-      url: /archives/
-    - name: 友链
-      url: /friends/
-    - name: Page
-      url: /page/
 
+    - name: Weibo
+      url: https://weibo.com/ysk46
+    - name: Road to Tokyo Dome
+      url: https://www.hinatazaka46.com/s/official/page/roadtotokyodome
+      
 
 
 # ---------------------------------------------------------------
@@ -67,15 +64,15 @@ style:
 
   # 颜色配置
   color: 
-    main_color: '#ffb90f'
+    main_color: '#7dc8e9'
 
   # 弧度设置
   radius: 
-    main_radius: 5px
+    main_radius: 17px
     
   # 间距设置
   space: 
-    main_space: 3.5rem
+    main_space: 4.6rem
     sm_space: 1.5rem  # 当屏幕宽度小于 650px 时候启用
 
   # 代码高亮
@@ -100,7 +97,7 @@ meta:
   
   # 默认文章作者（可在front-matter中覆盖）
   author:
-    name: ChrAlpha
+    name: Kangzi
     url: https://chralpha.com
   
   # 文章创建日期
@@ -115,17 +112,17 @@ meta:
 
   # 文章过时提醒
   expire: 
-    enable: true
+    enable: false
     duration: 120  # 超过此天数则显示过期提醒
 
   # 文章自动摘要
   auto_excerpt: 
     enable: true
-    length: 150
+    length: 30
 
   # 文章目录
   toc: 
-    enable: true
+    enable: false
     list_number: false
 
   # 文章版权声明

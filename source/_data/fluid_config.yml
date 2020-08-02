@@ -158,13 +158,13 @@ scroll_top_arrow:  # 向顶部滚动的箭头
 # Index Page
 #---------------------------
 index:
-  banner_img: /img/default.png  # 首页 Banner 头图，以下相同
+  banner_img: ![aJPwb4.jpg](https://s1.ax1x.com/2020/08/02/aJPwb4.jpg)  # 首页 Banner 头图，以下相同
   banner_img_height: 100  # 头图高度，屏幕百分比，available: 0 - 100
   banner_mask_alpha: 0.3  # 头图黑色蒙版的透明度，available: 0 - 1.0， 0 是完全透明（无蒙版），1 是完全不透明
-  post_default_img: '' # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
+  post_default_img: '[img]https://s1.ax1x.com/2020/08/02/aJPfqe.jpg[/img]' # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
   slogan:  # 首页副标题的独立设置
     enable: true  # 为 false 则不显示任何内容
-    text: 'An elegant Material-Design theme for Hexo'  # 为空则按 hexo config.subtitle 显示
+    text: '向着太阳的方向攀登🌞'  # 为空则按 hexo config.subtitle 显示
   auto_excerpt:
     enable: true
   post_url_target: _self  # available: _blank | _self
@@ -176,7 +176,7 @@ index:
 # 通过 hexo new page 命令创建的页面
 # Custom Page
 page:
-  banner_img: /img/default.png
+  banner_img: [img]https://s1.ax1x.com/2020/08/02/aJPfqe.jpg[/img]
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
 
@@ -185,7 +185,7 @@ page:
 # Post Page
 #---------------------------
 post:  # 部分配置同时控制自定义页面，注意备注
-  banner_img: /img/default.png
+  banner_img: [img]https://s1.ax1x.com/2020/08/02/aJPfqe.jpg[/img]
   banner_img_height: 70  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   meta:  # 文章标题下方的信息
@@ -193,10 +193,10 @@ post:  # 部分配置同时控制自定义页面，注意备注
       enable: true
       format: "LL a"  # 格式参照 ISO-8601 日期格式化，可参照 http://momentjs.cn/docs/#/parsing/string-format/
     wordcount:  # 字数统计
-      enable: true
+      enable: false
       format: "{} 字"  # 显示的文本，{}是数字的占位符（必须包含)，下同
     min2read:  # 阅读时间
-      enable: true
+      enable: false
       format: "{} 分钟"
       words: 100  # 每分钟阅读多少字，如果是技术文章，建议降低
     views:  # 阅读次数
@@ -208,14 +208,14 @@ post:  # 部分配置同时控制自定义页面，注意备注
     content: 本文最后更新于：  # 描述文字
     relative: false  # 是否使用相对时间表示，比如："3 天前"
   toc:  # 文章右侧目录
-    enable: true
+    enable: false
     headingSelector: h1,h2,h3,h4,h5,h6
     collapseDepth: 0  # 层级的折叠深度，0 是全部折叠，6 是全部不折叠
   copyright:  # 版权声明
     enable: true
-    content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！'
+    content: '站内文章未特别说明则为原创；请避免转载含有乃木坂46 LLC、Seed&Flower LLC 版权的内容'
   prev_next:  # 文章底部上一篇下一篇功能
-    enable: true
+    enable: ![aJPwb4.jpg](https://s1.ax1x.com/2020/08/02/aJPwb4.jpg)
   custom:  # 文章底部自定义内容
     enable: false
     content: '<img src="https://octodex.github.com/images/jetpacktocat.png" class="rounded mx-auto d-block mt-5" style="width:150px; height:150px;">' # 自定义区域，支持 HTML，可自行插入赞赏码、公众号二维码等内容
@@ -316,7 +316,7 @@ archive:
   banner_img: /img/default.png
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
-  subtitle:  # 打字机内容
+  subtitle: '誰よりも高く跳べ！'  # 打字机内容
 
 #---------------------------
 # 分类归档页
@@ -338,7 +338,7 @@ tag:
   banner_img: /img/default.png
   banner_img_height: 80  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
-  subtitle:  # 打字机内容
+  subtitle: '誰よりも高く跳べ！'   # 打字机内容
   tagcloud: # 标签云
     min_font: 15
     max_font: 30
@@ -355,7 +355,7 @@ about:  # 关于页需要手动创建，具体请见：https://hexo.fluid-dev.co
   banner_img: /img/default.png
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
-  subtitle:  # 打字机内容
+  subtitle: '誰よりも高く跳べ！'  # 打字机内容
   avatar: /img/avatar.png # 头像
   name: myname
   introduce: '一句简短的介绍' # 支持 HTML
@@ -384,23 +384,12 @@ links:
   banner_img: /img/default.png
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
-  subtitle:  # 打字机内容
+  subtitle: '誰よりも高く跳べ！'  # 打字机内容
   items:  # intro 与 image 可省略
     - {
-      title: 'Fluid Docs',
-      intro: '主题使用指南',
-      link: 'https://hexo.fluid-dev.com/docs/',
+      title: 'Weibo',
+      intro: '微博',
+      link: 'https://weibo.com/ysk46',
       image: '/img/favicon.png'
     }
-    - {
-      title: 'Fluid Repo',
-      intro: '主题 GitHub 仓库',
-      link: 'https://github.com/fluid-dev/hexo-theme-fluid',
-      image: '/img/favicon.png'
-    }
-    - {
-      title: 'Fluid Example',
-      intro: '主题操作示例',
-      link: 'https://hexo.fluid-dev.com/docs/example/',
-      image: '/img/favicon.png'
-    }
+    
